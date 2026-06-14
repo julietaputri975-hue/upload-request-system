@@ -2,11 +2,18 @@
 
 function validateType($file)
 {
-    $allowed = ['pdf', 'doc', 'docx'];
+    $extension = strtolower(
+        pathinfo($file["name"], PATHINFO_EXTENSION)
+    );
 
-    $ext = strtolower(pathinfo($file["name"], PATHINFO_EXTENSION));
-
-    return in_array($ext, $allowed);
+    switch ($extension) {
+        case "pdf":
+        case "doc":
+        case "docx":
+            return true;
+        default:
+            return false;
+    }
 }
 
 ?>
