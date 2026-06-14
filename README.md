@@ -3,10 +3,10 @@
 ## Laporan Tugas GitHub: Code Review & Collaboration
 
 * **Repository:** https://github.com/julietaputri975-hue/upload-request-system
-* **Branch Utama:** main
-* **Branch Fitur:** nadila, rara, cici
 * **Author:** Julieta Putri
 * **Reviewer:** Nadila Septiliana Putri, Laras Sefhia, Asri Adzariatunisa
+* **Branch Utama:** main
+* **Branch Fitur:** nadila, rara, cici
 
 ## Ringkasan Review & Perbaikan
 
