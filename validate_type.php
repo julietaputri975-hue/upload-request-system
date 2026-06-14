@@ -2,15 +2,20 @@
 
 function validateType($file)
 {
-    $extension = strtolower(
-        pathinfo($file["name"], PATHINFO_EXTENSION)
-    );
+    // ambil ekstensi file
+    $extension = strtolower(pathinfo($file["name"], PATHINFO_EXTENSION));
 
-    switch ($extension) {
-        case "pdf":
-        case "doc":
-        case "docx":
+    // validasi menggunakan switch case
+    switch (true) {
+        case ($extension == "pdf"):
             return true;
+
+        case ($extension == "doc"):
+            return true;
+
+        case ($extension == "docx"):
+            return true;
+
         default:
             return false;
     }
