@@ -4,7 +4,7 @@
 
 * **Repository:** https://github.com/julietaputri975-hue/upload-request-system
 * **Author:** Julieta Putri
-* **Reviewer:** Nadila Septiliana Putri, Laras Sefhia, Asri Adzariatunisa
+* **Reviewer:** Nadila Septiliana Putri, Laras Sefhia Irawan, Asri Adzariyatu Nisa
 * **Branch Utama:** main
 * **Branch Fitur:** nadila, rara, cici
 
