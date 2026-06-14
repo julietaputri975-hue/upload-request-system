@@ -1,14 +1,19 @@
 <?php
 
-function validateSize($file)
+function validateSize($file, $maxSizeMB = 2, &$error = null)
 {
-    $maxSize = 2 * 1024 * 1024; // 2 MB
+    if (!isset($file['size']) || $file['error'] !== UPLOAD_ERR_OK) {
+        $error = "File upload tidak valid.";
+        return false;
+    }
 
-    if ($file["size"] > $maxSize) {
+    $maxSize = $maxSizeMB * 1024 * 1024;
+
+    if ($file['size'] > $maxSize) {
+        $error = "Ukuran file melebihi batas {$maxSizeMB} MB.";
         return false;
     }
 
     return true;
 }
-
 ?>
