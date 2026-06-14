@@ -5,8 +5,8 @@
 * **Repository:** https://github.com/julietaputri975-hue/upload-request-system
 * **Branch Utama:** main
 * **Branch Fitur:** nadila, rara, cici
-* **Author:** Julieta
-* **Reviewer:** Nadila, Rara, Cici
+* **Author:** Julieta Putri
+* **Reviewer:** Nadila Septiliana Putri, Laras Sefhia, Asri Adzariatunisa
 
 ## Ringkasan Review & Perbaikan
 
