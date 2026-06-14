@@ -2,11 +2,11 @@
 
 ## Laporan Tugas GitHub: Code Review & Collaboration
 
-* **Repository:** [Link repositori kamu di sini]
+* **Repository:** https://github.com/julietaputri975-hue/upload-request-system
 * **Branch Utama:** main
-* **Branch Fitur:** nadila, rara, cici, dedi, eka
+* **Branch Fitur:** nadila, rara, cici
 * **Author:** Julieta
-* **Reviewer:** Nadila, Rara, Cici, Dedi, Eka
+* **Reviewer:** Nadila, Rara, Cici
 
 ## Ringkasan Review & Perbaikan
 
@@ -15,7 +15,6 @@
 | Validasi Ukuran File | Nadila | Selesai |
 | Validasi Tipe File | Rara | Selesai |
 | Sistem Logging | Cici | Selesai |
-| Rename Otomatis | Eka | Selesai |
 
 ## Refleksi
 1. Saya belajar mengelola alur kerja tim menggunakan *branching* di GitHub.
